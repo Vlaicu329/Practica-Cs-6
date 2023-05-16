@@ -11,10 +11,10 @@ class Program
         int y = int.Parse(Console.ReadLine());
 
         Console.WriteLine("\nResultados:");
-        Console.WriteLine($"Suma: {Addition(x, y)}");
-        Console.WriteLine($"Resta: {Subtraction(x, y)}");
-        Console.WriteLine($"Multiplicación: {Multiply(x, y)}");
-        Console.WriteLine($"División: {Division(x, y)}");
+        Console.WriteLine($"Suma: {Addition(x , y)}");
+        Console.WriteLine($"Resta: {Subtraction(x , y)}");
+        Console.WriteLine($"Multiplicación: {Multiply(x , y)}");
+        Console.WriteLine($"División: {Division(x , y)}");
     }
 
     static int Addition(int a, int b)
